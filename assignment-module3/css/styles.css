@@ -1,0 +1,122 @@
+body {
+    background-color: tan;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header-nav {
+    background-color: rgb(95, 66, 28);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    height: 80px;
+}
+
+.navbar-brand h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-top: 10px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+#nav-list a {
+    color: white;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#nav-list > li {
+    background-color: gray;
+    opacity: 0.8;
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid rgb(116, 101, 82);
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+section {
+    background-color: gray;
+    padding: 15px;
+    height: 1000px;
+    margin-bottom: 20px;
+}
+
+h4.menu-item-label {
+    font-weight: bold;
+}
+
+.menu-item-description {
+    margin: auto;
+    font-weight: 400;
+}
+
+.row {
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
